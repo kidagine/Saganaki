@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+
+const Home = () => {
+  const query = new URLSearchParams(window.location.search);
+  const clipboardData = query.get('data');
+
+  return (
+    <div>
+      <h1>Clipboard Data</h1>
+      {clipboardData ? (
+        <p>Clipboard content: {clipboardData}</p>
+      ) : (
+        <p>No data received.</p>
+      )}
+    </div>
+  );
+};
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<h1>404 Not Found</h1>} />
+      </Routes>
+    </Router>
   );
 }
 
