@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/kidagine/Saganaki-WebsiteDictionary/static/css/main.f855e6bc.css",
-    "main.js": "/kidagine/Saganaki-WebsiteDictionary/static/js/main.3fb29215.js",
-    "static/js/453.fd3b919e.chunk.js": "/kidagine/Saganaki-WebsiteDictionary/static/js/453.fd3b919e.chunk.js",
-    "static/media/logo.svg": "/kidagine/Saganaki-WebsiteDictionary/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/kidagine/Saganaki-WebsiteDictionary/index.html",
-    "main.f855e6bc.css.map": "/kidagine/Saganaki-WebsiteDictionary/static/css/main.f855e6bc.css.map",
-    "main.3fb29215.js.map": "/kidagine/Saganaki-WebsiteDictionary/static/js/main.3fb29215.js.map",
-    "453.fd3b919e.chunk.js.map": "/kidagine/Saganaki-WebsiteDictionary/static/js/453.fd3b919e.chunk.js.map"
+    "main.css": "/saganaki/static/css/main.f855e6bc.css",
+    "main.js": "/saganaki/static/js/main.f9752c1a.js",
+    "static/js/453.fd3b919e.chunk.js": "/saganaki/static/js/453.fd3b919e.chunk.js",
+    "static/media/logo.svg": "/saganaki/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/saganaki/index.html",
+    "main.f855e6bc.css.map": "/saganaki/static/css/main.f855e6bc.css.map",
+    "main.f9752c1a.js.map": "/saganaki/static/js/main.f9752c1a.js.map",
+    "453.fd3b919e.chunk.js.map": "/saganaki/static/js/453.fd3b919e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.3fb29215.js"
+    "static/js/main.f9752c1a.js"
   ]
 }
